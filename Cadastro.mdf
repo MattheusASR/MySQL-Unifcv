@@ -1,0 +1,10 @@
+create database Cadastro;
+
+use Cadastro;
+
+CREATE TABLE Usuarios(
+	UsuarioId int (1) NOT NULL,
+	Nome nvarchar(50) NULL,
+	Senha nvarchar(50) NULL,
+	Email nvarchar(100) NULL,
+ CONSTRAINT PK_Usuarios PRIMARY KEY (UsuarioId) );
